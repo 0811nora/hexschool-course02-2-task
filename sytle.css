@@ -1,0 +1,292 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+*,*::before,*::after{
+	box-sizing: border-box;
+}
+
+/* ------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script:wght@400..700&family=Noto+Sans+TC:wght@100..900&family=Noto+Serif+TC:wght@200..900&family=WDXL+Lubrifont+TC&display=swap');
+
+
+:root{
+	--main-color: #212529;
+	--green-color:#57A203;
+	--light-gray-color:#6C757D;
+	--red-color:#D74F4F;
+	--white-color:#ffffff
+}
+
+body{
+	font-family: "Noto Sans TC", sans-serif;
+	line-height: 1.5;
+	letter-spacing: 0.5px;
+	color:var(--main-color);
+	
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+
+
+.max-w-1296{
+	max-width: 1296px;
+}
+.w-746{
+	width: 746px;
+}
+.w-526{
+	width: 526px;
+}
+.w-259{
+	width: 259px;
+}
+
+
+
+.m0-a{
+	margin: 0 auto;
+}
+.mt-40{
+	margin-top: 40px;
+}
+.me-8{
+	margin-right: 8px;
+}
+.me-24{
+	margin-right: 24px;
+}
+.me-48{
+	margin-right: 48px;
+}
+.mb-8{
+	margin-bottom: 8px;
+}
+.mb-12{
+	margin-bottom: 12px;
+}
+.mb-16{
+	margin-bottom: 16px;
+}
+.mb-32{
+	margin-bottom: 32px;
+}
+.mb-48{
+	margin-bottom: 48px;
+}
+.p-20{
+	padding: 20px;
+}
+.p-12-24{
+	padding: 12px 24px;
+}
+.pt-32{
+	padding-top: 32px;
+}
+.pb-24{
+	padding-bottom: 24px;
+}
+.py-12{
+	padding: 12px 0;
+}
+.py-16{
+	padding: 16px 0;
+}
+.py-24{
+	padding: 24px 0;
+}
+.py-48{
+	padding: 48px 0;
+}
+.py-64{
+	padding: 64px 0;
+}
+.px-12{
+	padding: 0 12px;
+}
+.gap-8{
+	gap: 8px;
+}
+.gap-10{
+	gap: 10px;
+}
+
+
+
+
+.d-f{
+	display: flex;
+}
+.d-in-b{
+	display: inline-block;
+}
+.jcsb{
+	justify-content: space-between;
+}
+.jcc{
+	justify-content: center;
+}
+.al-i-c{
+	align-items: center;
+}
+.flex-wrap{
+	flex-wrap: wrap;
+}
+
+
+
+
+.fw-500{
+	font-weight: 500;
+}
+.fw-700{
+	font-weight: 700;
+}
+.fz-14{
+	font-size: 14px;
+}
+.fz-20{
+	font-size: 20px;
+}
+.fz-24{
+	font-size: 24px;
+}
+.fz-32{
+	font-size: 32px;
+}
+
+
+.ver-al-middle{
+	vertical-align: middle;
+}
+.text-del{
+	text-decoration:line-through;
+}
+.text-al-c{
+	text-align: center;
+}
+.line-h-120{
+	line-height: 1.2;
+}
+
+
+
+.main-color, .main-coloer-noH{
+	color:var(--main-color);
+}
+.main-color:hover, .light-gray-color:hover,.white-color:hover{
+	color:var(--green-color)
+}
+.green-color{
+	color:var(--green-color)
+}
+.light-gray-color, .light-gray-color-noH{
+	color: var(--light-gray-color);
+}
+.lightMore-gray-color{
+	color:#ADB5BD;
+}
+.red-color{
+	color: var(--red-color);
+}
+.white-color{
+	color: var(--white-color);
+}
+.border-light{
+	border: 1.5px solid #DEE2E6;
+}
+.border-b{
+	border-bottom: 1px solid #DEE2E6;
+}
+.border-light:hover{
+	border: 1.5px solid var(--main-color);
+}
+.border-dark{
+	border: 1.5px solid var(--main-color);
+}
+.b-r-4{
+	border-radius: 4px;
+}
+.bg-dark{
+	background-color: var(--main-color);
+}
+.banner-bg{
+	background-color: #E8FEC5;
+}
+.box-shadow-green:hover{
+    box-shadow: 0px 0px 2px 2px #57a203;
+    transition: all 0.2s linear;
+}
+.box-shadow:hover{
+	box-shadow: 3px 3px 15px #DEE2E6;
+    transition: all 0.2s linear;
+}
+
+
+
+
+.product-img img{
+	width: 369px;
+}
+.product-color img{
+	width: 64px;
+}
+.recommended img{
+	width: 306px;
+}
+.product-size a{
+	width: 160px;
+	padding: 12px;
+	border-radius: 4px;
+	text-align: center;
+}
+
+
+a.disabled {
+	pointer-events: none;
+	opacity: 0.5;
+	cursor: not-allowed;
+	color: #8d8d8d;
+}
